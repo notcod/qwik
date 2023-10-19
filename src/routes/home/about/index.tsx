@@ -5,7 +5,7 @@ export default component$(() => {
     return (
         <>
 
-      <header class="flex flex-col shrink-0 box-border min-h-[100px] text-white bg-indigo-950 pt-8 pb-20 px-5 max-sm:pb-10" maxWidth={1200} lazyLoad={false}>
+      <header class="flex flex-col shrink-0 box-border min-h-[100px] text-white bg-indigo-950 pt-8 pb-20 px-5 max-sm:pb-10"  >
         <section class="flex flex-col shrink-0 box-border min-h-[100px] text-white bg-indigo-950 w-full self-stretch grow max-w-[1200px] items-stretch mx-auto pt-8 pb-20 px-5 max-sm:pb-10">
           <div class="flex flex-col relative shrink-0 box-border items-center px-5">
             <div class="flex flex-row relative shrink-0 box-border justify-center gap-7">
@@ -77,7 +77,7 @@ export default component$(() => {
                 <button class="bg-violet-500 hover:bg-violet-600">Hello</button>
                 Happy coding.
             </p>
-            <header class="flex flex-col shrink-0 box-border min-h-[100px] text-white bg-indigo-950 pt-8 pb-20 px-5 max-sm:pb-10" maxWidth={1200} lazyLoad={false}>
+            <header class="flex flex-col shrink-0 box-border min-h-[100px] text-white bg-indigo-950 pt-8 pb-20 px-5 max-sm:pb-10"  >
         <section class="flex flex-col shrink-0 box-border min-h-[100px] text-white bg-indigo-950 w-full self-stretch grow max-w-[1200px] items-stretch mx-auto pt-8 pb-20 px-5 max-sm:pb-10">
           <div class="flex flex-col relative shrink-0 box-border items-center px-5">
             <div class="flex flex-row relative shrink-0 box-border justify-center gap-7">
@@ -230,8 +230,8 @@ export default component$(() => {
       </header>
       <footer
         class="builder-footer flex flex-col relative shrink-0 box-border min-h-[100px] text-white bg-slate-900 px-5 py-8 max-sm:pt-5"
-        maxWidth={1200}
-        lazyLoad={false}
+        
+        
       >
         <section
           class="builder-footer flex flex-col relative shrink-0 box-border min-h-[100px] text-white bg-slate-900 w-full self-stretch grow max-w-[1200px] items-stretch mx-auto px-5 py-8 max-sm:pt-5"

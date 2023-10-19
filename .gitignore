@@ -1,8 +1,8 @@
 # Build
-#/dist
+/dist
 /lib
 /lib-types
-#/server
+/server
 
 # Development
 node_modules
@@ -39,3 +39,9 @@ lerna-debug.log*
 # Yarn
 .yarn/*
 !.yarn/releases
+
+# Netlify
+.netlify
+
+# Cloudflare
+functions/**/*.js
